@@ -1,0 +1,9 @@
+org/wisetail/utils/LoginPageLanguage.class
+org/wisetail/utils/TargetPlatform.class
+org/wisetail/pages/HomePage.class
+org/wisetail/utils/TargetPlatformMethods.class
+org/wisetail/base/Control.class
+org/wisetail/utils/CustomProperties.class
+org/wisetail/base/Page.class
+org/wisetail/pages/LoginPage.class
+org/wisetail/base/Driver.class

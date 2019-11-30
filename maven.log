@@ -1,0 +1,713 @@
+547 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Created new class realm maven.api
+547 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Importing foreign packages into class realm maven.api
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: javax.enterprise.inject.* < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: javax.enterprise.util.* < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: javax.inject.* < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.* < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.artifact < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.classrealm < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.cli < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.configuration < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.exception < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.execution < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.execution.scope < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.lifecycle < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.model < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.monitor < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.plugin < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.profiles < plexus.core
+548 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.project < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.reporting < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.repository < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.rtinfo < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.settings < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.toolchain < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.usability < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.* < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.authentication < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.authorization < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.events < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.observers < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.proxy < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.repository < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.apache.maven.wagon.resource < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.classworlds < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.* < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.classworlds < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.component < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.configuration < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.container < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.context < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.lifecycle < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.logging < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.personality < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.* < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.artifact < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.collection < plexus.core
+549 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.deployment < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.graph < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.impl < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.installation < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.internal.impl < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.metadata < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.repository < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.resolution < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.spi < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.transfer < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.eclipse.aether.version < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.slf4j.* < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.slf4j.helpers.* < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported: org.slf4j.spi.* < plexus.core
+550 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Populating class realm maven.api
+607 [main] [INFO] org.apache.maven.cli.MavenCli - Error stacktraces are turned on.
+610 [main] [DEBUG] org.apache.maven.cli.configuration.SettingsXmlConfigurationProcessor - Reading global settings from /Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf/settings.xml
+610 [main] [DEBUG] org.apache.maven.cli.configuration.SettingsXmlConfigurationProcessor - Reading user settings from /Users/olgajoloud/.m2/settings.xml
+621 [main] [DEBUG] org.apache.maven.cli.MavenCli - Reading global toolchains from /Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf/toolchains.xml
+621 [main] [DEBUG] org.apache.maven.cli.MavenCli - Reading user toolchains from /Users/olgajoloud/.m2/toolchains.xml
+627 [main] [DEBUG] org.apache.maven.DefaultMaven - Using local repository at /Users/olgajoloud/.m2/repository
+639 [main] [DEBUG] org.eclipse.aether.internal.impl.DefaultLocalRepositoryProvider - Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/olgajoloud/.m2/repository
+643 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+675 [main] [DEBUG] org.apache.maven.project.DefaultProjectBuildingHelper - Extension realms for project NG-Automation:NG-Automation:jar:1.0-SNAPSHOT: (none)
+675 [main] [DEBUG] org.apache.maven.lifecycle.internal.DefaultLifecyclePluginAnalyzer - Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+692 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - === REACTOR BUILD PLAN ================================================
+692 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Project: NG-Automation:NG-Automation:jar:1.0-SNAPSHOT
+692 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Tasks:   [install]
+692 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:   Regular
+694 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - =======================================================================
+697 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+697 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+697 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - Building NG-Automation 1.0-SNAPSHOT
+697 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+697 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+697 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+697 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+803 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+803 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+803 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+803 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle clean -> [pre-clean, clean, post-clean]
+804 [main] [DEBUG] org.apache.maven.lifecycle.DefaultLifecycles - Lifecycle site -> [pre-site, site, post-site, site-deploy]
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - === PROJECT BUILD PLAN ================================================
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Project:       NG-Automation:NG-Automation:1.0-SNAPSHOT
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Dependencies (collect): []
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Dependencies (resolve): [compile, runtime, test]
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - -----------------------------------------------------------------------
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+804 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:         Regular
+806 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+806 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - -----------------------------------------------------------------------
+806 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile)
+806 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:         Regular
+806 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">1.8</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+806 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - -----------------------------------------------------------------------
+806 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:         Regular
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - -----------------------------------------------------------------------
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile)
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:         Regular
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.6">1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.6">1.8</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - -----------------------------------------------------------------------
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test)
+807 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:         Regular
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <junitPlatformArtifactName default-value="org.junit.platform:junit-platform-engine">${junitPlatformArtifactName}</junitPlatformArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - -----------------------------------------------------------------------
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:         Regular
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - -----------------------------------------------------------------------
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Style:         Regular
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+808 [main] [DEBUG] org.apache.maven.lifecycle.internal.LifecycleDebugLogger - =======================================================================
+903 [main] [DEBUG] org.eclipse.aether.internal.impl.DefaultDependencyCollector - Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=96, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=29, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5, ConflictResolver.conflictItemCount=95, DefaultDependencyCollector.collectTime=84, DefaultDependencyCollector.transformTime=8}
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver - NG-Automation:NG-Automation:jar:1.0-SNAPSHOT
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -    org.seleniumhq.selenium:selenium-java:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-api:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-chrome-driver:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-edge-driver:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-firefox-driver:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-ie-driver:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-opera-driver:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-remote-driver:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-safari-driver:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.seleniumhq.selenium:selenium-support:jar:3.141.59:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       net.bytebuddy:byte-buddy:jar:1.8.15:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.apache.commons:commons-exec:jar:1.3:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       com.google.guava:guava:jar:25.0-jre:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -          com.google.code.findbugs:jsr305:jar:1.3.9:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -          org.checkerframework:checker-compat-qual:jar:2.0.0:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -          com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -          com.google.j2objc:j2objc-annotations:jar:1.1:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -          org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       com.squareup.okhttp3:okhttp:jar:3.11.0:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       com.squareup.okio:okio:jar:1.14.0:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -    org.junit.jupiter:junit-jupiter-engine:jar:5.5.0:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.apiguardian:apiguardian-api:jar:1.1.0:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.junit.platform:junit-platform-engine:jar:1.5.0:compile
+904 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -    org.junit.platform:junit-platform-launcher:jar:1.5.0:compile
+905 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -    org.junit.jupiter:junit-jupiter-params:jar:5.5.0:compile
+905 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -    org.junit.jupiter:junit-jupiter-api:jar:5.5.0:compile
+905 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.opentest4j:opentest4j:jar:1.2.0:compile
+905 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -       org.junit.platform:junit-platform-commons:jar:1.5.0:compile
+905 [main] [DEBUG] org.apache.maven.project.DefaultProjectDependenciesResolver -    log4j:log4j:jar:1.2.17:compile
+917 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - 
+917 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ NG-Automation ---
+1001 [main] [DEBUG] org.eclipse.aether.internal.impl.DefaultDependencyCollector - Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=81, DefaultDependencyCollector.transformTime=2}
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver - org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-project:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-profile:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-core:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+1001 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       commons-cli:commons-cli:jar:1.0:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       classworlds:classworlds:jar:1.1:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-artifact:jar:2.0.6:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-settings:jar:2.0.6:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-model:jar:2.0.6:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-monitor:jar:2.0.6:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       junit:junit:jar:3.8.1:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+1002 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+1011 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+1011 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+1011 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported:  < maven.api
+1011 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: commons-cli:commons-cli:jar:1.0
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: junit:junit:jar:3.8.1
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+1012 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+1046 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+1057 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+1060 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) buildFilters = []
+1061 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) encoding = UTF8
+1061 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) escapeWindowsPaths = true
+1061 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) includeEmptyDirs = false
+1061 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) outputDirectory = /Users/olgajoloud/NG-Automation/target/classes
+1061 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) overwrite = false
+1061 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) project = MavenProject: NG-Automation:NG-Automation:1.0-SNAPSHOT @ /Users/olgajoloud/NG-Automation/pom.xml
+1062 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/olgajoloud/NG-Automation/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+1062 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) session = org.apache.maven.execution.MavenSession@7876d598
+1062 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) supportMultiLineFiltering = false
+1062 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) useBuildFilters = true
+1062 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) useDefaultDelimiters = true
+1062 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - -- end configuration --
+1066 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=com.jetbrains.intellij.ce.4112, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/_b/dzzdfby55qb2dr0jmft47tf80000gp/T/, env.PWD=/Users/olgajoloud/NG-Automation, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_211-b12, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.e4pww7W5iZ/Render, project.build.sourceEncoding=UTF8, user.name=olgajoloud, maven.build.version=Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T11:41:47-05:00), env.USER=olgajoloud, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0x52, idea.version2019.1.3=true, env.PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS, user.language=en, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib, classworlds.conf=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf, env.XPC_FLAGS=0x0, env.LC_CTYPE=en_CA.UTF-8, java.version=1.8.0_211, user.timezone=America/Toronto, sun.arch.data.model=64, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=52.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=CA, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre, java.vm.info=mixed mode, env.LOGNAME=olgajoloud, os.version=10.14.6, maven.compile.plugin=3.8.1, env.VERSIONER_PYTHON_PREFER_32_BIT=no, path.separator=:, java.vm.version=25.211-b12, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, user.home=/Users/olgajoloud, env.VERSIONER_PYTHON_VERSION=2.7, java.specification.vendor=Oracle Corporation, java.library.path=/Users/olgajoloud/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.classworlds.Launcher -Didea.version2019.1.3 --debug install, java.class.path=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar, env.JAVA_MAIN_CLASS_8706=org.codehaus.classworlds.Launcher, maven.version=3.3.9, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/olgajoloud, java.io.tmpdir=/var/folders/_b/dzzdfby55qb2dr0jmft47tf80000gp/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/Users/olgajoloud/NG-Automation, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.yodbUALZPI/Listeners, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/olgajoloud/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, user.dir=/Users/olgajoloud/NG-Automation, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8}
+1067 [main] [INFO] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF8' encoding to copy filtered resources.
+1067 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - resource with targetPath null
+directory /Users/olgajoloud/NG-Automation/src/main/resources
+excludes []
+includes []
+1067 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - ignoreDelta true
+1071 [main] [INFO] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 6 resources
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - file chromedriver has a filtered file extension
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - copy /Users/olgajoloud/NG-Automation/src/main/resources/drivers/iOS/chromedriver to /Users/olgajoloud/NG-Automation/target/classes/drivers/iOS/chromedriver
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - file chromedriver.exe has a filtered file extension
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - copy /Users/olgajoloud/NG-Automation/src/main/resources/drivers/WINDOWS/chromedriver.exe to /Users/olgajoloud/NG-Automation/target/classes/drivers/WINDOWS/chromedriver.exe
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - file OverallTestCompletionData.csv has a filtered file extension
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - copy /Users/olgajoloud/NG-Automation/src/main/resources/OverallTestCompletionData.csv to /Users/olgajoloud/NG-Automation/target/classes/OverallTestCompletionData.csv
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - file test.properties has a filtered file extension
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - copy /Users/olgajoloud/NG-Automation/src/main/resources/test.properties to /Users/olgajoloud/NG-Automation/target/classes/test.properties
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - file HomeTestData.csv has a filtered file extension
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - copy /Users/olgajoloud/NG-Automation/src/main/resources/HomeTestData.csv to /Users/olgajoloud/NG-Automation/target/classes/HomeTestData.csv
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - file LoginTestData.csv has a filtered file extension
+1074 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - copy /Users/olgajoloud/NG-Automation/src/main/resources/LoginTestData.csv to /Users/olgajoloud/NG-Automation/target/classes/LoginTestData.csv
+1074 [main] [DEBUG] org.apache.maven.plugin.resources.ResourcesMojo - no use filter components
+1075 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - 
+1075 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.1:compile (default-compile) @ NG-Automation ---
+1257 [main] [DEBUG] org.eclipse.aether.internal.impl.DefaultDependencyCollector - Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=180, DefaultDependencyCollector.transformTime=2}
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver - org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1:
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-plugin-api:jar:3.0:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-model:jar:3.0:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-artifact:jar:3.0:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven:maven-core:jar:3.0:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-settings:jar:3.0:compile
+1257 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-settings-builder:jar:3.0:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-model-builder:jar:3.0:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.sonatype.aether:aether-impl:jar:1.7:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -          org.sonatype.aether:aether-spi:jar:1.7:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.sonatype.aether:aether-api:jar:1.7:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.sonatype.aether:aether-util:jar:1.7:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       commons-io:commons-io:jar:2.5:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.codehaus.plexus:plexus-java:jar:0.9.10:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       org.ow2.asm:asm:jar:6.2:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -       com.thoughtworks.qdox:qdox:jar:2.0-M9:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.codehaus.plexus:plexus-compiler-api:jar:2.8.4:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4:compile
+1258 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver -    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4:runtime
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Imported:  < maven.api
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer - Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.8.1
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.sonatype.aether:aether-util:jar:1.7
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+1271 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: commons-io:commons-io:jar:2.5
+1272 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+1272 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+1272 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.ow2.asm:asm:jar:6.2
+1272 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: com.thoughtworks.qdox:qdox:jar:2.0-M9
+1272 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.4
+1272 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.4
+1272 [main] [DEBUG] org.codehaus.plexus.PlexusContainer -   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.4
+1315 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+1318 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile' with basic configurator -->
+1318 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) basedir = /Users/olgajoloud/NG-Automation
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) buildDirectory = /Users/olgajoloud/NG-Automation/target
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) compilePath = [/Users/olgajoloud/NG-Automation/target/classes, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar, /Users/olgajoloud/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar, /Users/olgajoloud/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar, /Users/olgajoloud/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar, /Users/olgajoloud/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, /Users/olgajoloud/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar, /Users/olgajoloud/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar, /Users/olgajoloud/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar, /Users/olgajoloud/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar, /Users/olgajoloud/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar, /Users/olgajoloud/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-launcher/1.5.0/junit-platform-launcher-1.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar, /Users/olgajoloud/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar]
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) compileSourceRoots = [/Users/olgajoloud/NG-Automation/src/main/java]
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) compilerId = javac
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) debug = true
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) encoding = UTF8
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) failOnError = true
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) failOnWarning = false
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) forceJavacCompilerUse = false
+1319 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) fork = false
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) generatedSourcesDirectory = /Users/olgajoloud/NG-Automation/target/generated-sources/annotations
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile {execution: default-compile}
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) optimize = false
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) outputDirectory = /Users/olgajoloud/NG-Automation/target/classes
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) parameters = false
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) project = MavenProject: NG-Automation:NG-Automation:1.0-SNAPSHOT @ /Users/olgajoloud/NG-Automation/pom.xml
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) projectArtifact = NG-Automation:NG-Automation:jar:1.0-SNAPSHOT
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) session = org.apache.maven.execution.MavenSession@7876d598
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) showDeprecation = false
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) showWarnings = false
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) skipMultiThreadWarning = false
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) source = 1.8
+1320 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) staleMillis = 0
+1321 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) target = 1.8
+1321 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) useIncrementalCompilation = true
+1321 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) verbose = false
+1321 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - -- end configuration --
+1321 [main] [DEBUG] org.apache.maven.plugin.compiler.CompilerMojo - Using compiler 'javac'.
+1324 [main] [DEBUG] org.apache.maven.plugin.compiler.CompilerMojo - Adding /Users/olgajoloud/NG-Automation/target/generated-sources/annotations to compile source roots:
+  /Users/olgajoloud/NG-Automation/src/main/java
+1324 [main] [DEBUG] org.apache.maven.plugin.compiler.CompilerMojo - New compile source roots:
+  /Users/olgajoloud/NG-Automation/src/main/java
+  /Users/olgajoloud/NG-Automation/target/generated-sources/annotations
+1324 [main] [DEBUG] org.apache.maven.plugin.compiler.CompilerMojo - CompilerReuseStrategy: reuseCreated
+1324 [main] [DEBUG] org.apache.maven.plugin.compiler.CompilerMojo - useIncrementalCompilation enabled
+1336 [main] [INFO] org.apache.maven.plugin.compiler.CompilerMojo - Nothing to compile - all classes are up to date
+1337 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - 
+1337 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ NG-Automation ---
+1337 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) buildFilters = []
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) encoding = UTF8
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) escapeWindowsPaths = true
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) includeEmptyDirs = false
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) outputDirectory = /Users/olgajoloud/NG-Automation/target/test-classes
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) overwrite = false
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) project = MavenProject: NG-Automation:NG-Automation:1.0-SNAPSHOT @ /Users/olgajoloud/NG-Automation/pom.xml
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/olgajoloud/NG-Automation/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) session = org.apache.maven.execution.MavenSession@7876d598
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) supportMultiLineFiltering = false
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) useBuildFilters = true
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) useDefaultDelimiters = true
+1338 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - -- end configuration --
+1339 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenFileFilter - properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, env.XPC_SERVICE_NAME=com.jetbrains.intellij.ce.4112, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes, env.TMPDIR=/var/folders/_b/dzzdfby55qb2dr0jmft47tf80000gp/T/, env.PWD=/Users/olgajoloud/NG-Automation, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_211-b12, env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.e4pww7W5iZ/Render, project.build.sourceEncoding=UTF8, user.name=olgajoloud, maven.build.version=Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T11:41:47-05:00), env.USER=olgajoloud, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0x0:0x52, idea.version2019.1.3=true, env.PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS, user.language=en, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib, classworlds.conf=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf, env.XPC_FLAGS=0x0, env.LC_CTYPE=en_CA.UTF-8, java.version=1.8.0_211, user.timezone=America/Toronto, sun.arch.data.model=64, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=52.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=CA, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre, java.vm.info=mixed mode, env.LOGNAME=olgajoloud, os.version=10.14.6, maven.compile.plugin=3.8.1, env.VERSIONER_PYTHON_PREFER_32_BIT=no, path.separator=:, java.vm.version=25.211-b12, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, user.home=/Users/olgajoloud, env.VERSIONER_PYTHON_VERSION=2.7, java.specification.vendor=Oracle Corporation, java.library.path=/Users/olgajoloud/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, java.vm.vendor=Oracle Corporation, gopherProxySet=false, maven.home=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.classworlds.Launcher -Didea.version2019.1.3 --debug install, java.class.path=/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar, env.JAVA_MAIN_CLASS_8706=org.codehaus.classworlds.Launcher, maven.version=3.3.9, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/olgajoloud, java.io.tmpdir=/var/folders/_b/dzzdfby55qb2dr0jmft47tf80000gp/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/Users/olgajoloud/NG-Automation, env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.yodbUALZPI/Listeners, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.ext.dirs=/Users/olgajoloud/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, user.dir=/Users/olgajoloud/NG-Automation, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.8}
+1339 [main] [INFO] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF8' encoding to copy filtered resources.
+1339 [main] [DEBUG] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - resource with targetPath null
+directory /Users/olgajoloud/NG-Automation/src/test/resources
+excludes []
+includes []
+1339 [main] [INFO] org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/olgajoloud/NG-Automation/src/test/resources
+1339 [main] [DEBUG] org.apache.maven.plugin.resources.TestResourcesMojo - no use filter components
+1339 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - 
+1339 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ NG-Automation ---
+1339 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.8.1, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile' with basic configurator -->
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) basedir = /Users/olgajoloud/NG-Automation
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) buildDirectory = /Users/olgajoloud/NG-Automation/target
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) compilePath = [/Users/olgajoloud/NG-Automation/target/classes, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar, /Users/olgajoloud/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar, /Users/olgajoloud/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar, /Users/olgajoloud/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar, /Users/olgajoloud/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, /Users/olgajoloud/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar, /Users/olgajoloud/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar, /Users/olgajoloud/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar, /Users/olgajoloud/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar, /Users/olgajoloud/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar, /Users/olgajoloud/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-launcher/1.5.0/junit-platform-launcher-1.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar, /Users/olgajoloud/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar]
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) compileSourceRoots = [/Users/olgajoloud/NG-Automation/src/test/java]
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) compilerId = javac
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) debug = true
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) encoding = UTF8
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) failOnError = true
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) failOnWarning = false
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) forceJavacCompilerUse = false
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) fork = false
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) generatedTestSourcesDirectory = /Users/olgajoloud/NG-Automation/target/generated-test-sources/test-annotations
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile {execution: default-testCompile}
+1340 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) optimize = false
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) outputDirectory = /Users/olgajoloud/NG-Automation/target/test-classes
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) parameters = false
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) project = MavenProject: NG-Automation:NG-Automation:1.0-SNAPSHOT @ /Users/olgajoloud/NG-Automation/pom.xml
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) session = org.apache.maven.execution.MavenSession@7876d598
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) showDeprecation = false
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) showWarnings = false
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) skipMultiThreadWarning = false
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) source = 1.8
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) staleMillis = 0
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (s) target = 1.8
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) testPath = [/Users/olgajoloud/NG-Automation/target/test-classes, /Users/olgajoloud/NG-Automation/target/classes, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar, /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar, /Users/olgajoloud/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar, /Users/olgajoloud/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar, /Users/olgajoloud/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar, /Users/olgajoloud/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar, /Users/olgajoloud/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar, /Users/olgajoloud/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar, /Users/olgajoloud/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar, /Users/olgajoloud/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar, /Users/olgajoloud/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar, /Users/olgajoloud/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-launcher/1.5.0/junit-platform-launcher-1.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar, /Users/olgajoloud/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar, /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar, /Users/olgajoloud/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar]
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) useIncrementalCompilation = true
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager -   (f) verbose = false
+1341 [main] [DEBUG] org.apache.maven.plugin.internal.DefaultMavenPluginManager - -- end configuration --
+1341 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Using compiler 'javac'.
+1341 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Adding /Users/olgajoloud/NG-Automation/target/generated-test-sources/test-annotations to test-compile source roots:
+  /Users/olgajoloud/NG-Automation/src/test/java
+1341 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - New test-compile source roots:
+  /Users/olgajoloud/NG-Automation/src/test/java
+  /Users/olgajoloud/NG-Automation/target/generated-test-sources/test-annotations
+1341 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - CompilerReuseStrategy: reuseCreated
+1341 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - useIncrementalCompilation enabled
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Stale source detected: /Users/olgajoloud/NG-Automation/src/test/java/org/wisetail/HomePageTest.java
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Stale source detected: /Users/olgajoloud/NG-Automation/src/test/java/org/wisetail/BaseTest.java
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Stale source detected: /Users/olgajoloud/NG-Automation/src/test/java/org/wisetail/loginTest.java
+1344 [main] [INFO] org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Classpath:
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/NG-Automation/target/test-classes
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/NG-Automation/target/classes
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-launcher/1.5.0/junit-platform-launcher-1.5.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar
+1344 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+1345 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Source roots:
+1345 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/NG-Automation/src/test/java
+1345 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo -  /Users/olgajoloud/NG-Automation/target/generated-test-sources/test-annotations
+1347 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - Command line options:
+1347 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - -d /Users/olgajoloud/NG-Automation/target/test-classes -classpath /Users/olgajoloud/NG-Automation/target/test-classes:/Users/olgajoloud/NG-Automation/target/classes:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/olgajoloud/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/olgajoloud/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/olgajoloud/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/olgajoloud/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/olgajoloud/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/olgajoloud/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/olgajoloud/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/olgajoloud/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/olgajoloud/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/olgajoloud/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/olgajoloud/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.0/junit-jupiter-engine-5.5.0.jar:/Users/olgajoloud/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-engine/1.5.0/junit-platform-engine-1.5.0.jar:/Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-launcher/1.5.0/junit-platform-launcher-1.5.0.jar:/Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.0/junit-jupiter-params-5.5.0.jar:/Users/olgajoloud/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.0/junit-jupiter-api-5.5.0.jar:/Users/olgajoloud/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/olgajoloud/.m2/repository/org/junit/platform/junit-platform-commons/1.5.0/junit-platform-commons-1.5.0.jar:/Users/olgajoloud/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar: -sourcepath /Users/olgajoloud/NG-Automation/src/test/java:/Users/olgajoloud/NG-Automation/target/generated-test-sources/test-annotations: -s /Users/olgajoloud/NG-Automation/target/generated-test-sources/test-annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF8
+1349 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - incrementalBuildHelper#beforeRebuildExecution
+1349 [main] [INFO] org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 3 source files to /Users/olgajoloud/NG-Automation/target/test-classes
+1567 [main] [DEBUG] org.apache.maven.plugin.compiler.TestCompilerMojo - incrementalBuildHelper#afterRebuildExecution
+1567 [main] [INFO] org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+1567 [main] [ERROR] org.apache.maven.plugin.compiler.TestCompilerMojo - COMPILATION ERROR : 
+1567 [main] [INFO] org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+1568 [main] [ERROR] org.apache.maven.plugin.compiler.TestCompilerMojo - /Users/olgajoloud/NG-Automation/src/test/java/org/wisetail/HomePageTest.java:[33,105] ')' expected
+1568 [main] [INFO] org.apache.maven.plugin.compiler.TestCompilerMojo - 1 error
+1568 [main] [INFO] org.apache.maven.plugin.compiler.TestCompilerMojo - -------------------------------------------------------------
+1568 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+1568 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+1568 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+1569 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - Total time: 0.941 s
+1569 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - Finished at: 2019-10-26T22:23:06-04:00
+1609 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 11M/309M
+1610 [main] [INFO] org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+1610 [main] [ERROR] org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project NG-Automation: Compilation failure
+1610 [main] [ERROR] org.apache.maven.cli.MavenCli - /Users/olgajoloud/NG-Automation/src/test/java/org/wisetail/HomePageTest.java:[33,105] ')' expected
+1610 [main] [ERROR] org.apache.maven.cli.MavenCli - -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project NG-Automation: Compilation failure
+/Users/olgajoloud/NG-Automation/src/test/java/org/wisetail/HomePageTest.java:[33,105] ')' expected
+
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+/Users/olgajoloud/NG-Automation/src/test/java/org/wisetail/HomePageTest.java:[33,105] ')' expected
+
+	at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute(AbstractCompilerMojo.java:1220)
+	at org.apache.maven.plugin.compiler.TestCompilerMojo.execute(TestCompilerMojo.java:180)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	... 21 more
+1611 [main] [ERROR] org.apache.maven.cli.MavenCli - 
+1611 [main] [ERROR] org.apache.maven.cli.MavenCli - 
+1611 [main] [ERROR] org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+1611 [main] [ERROR] org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
